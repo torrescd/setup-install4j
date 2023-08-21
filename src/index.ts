@@ -37,7 +37,7 @@ const platforms: {
     addToPath: true,
   },
   linux: {
-    osArch: 'linux-x64',
+    osArch: 'linux',
     extension: 'sh',
     commands: ['sudo bash <filename> -- -q -dir /opt/install4j'],
     binDirectory: '/opt/install4j/bin',
